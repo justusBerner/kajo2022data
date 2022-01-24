@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+:root {
+    --kajosininen: #1E2869 ;
+    --kajoliila: #AA50C8;
+    --kajokeltainen: #F8EA48;
+    --kajoturkoosi: #96E6E6;
+    --kajovalkoinen: white; 
+}
+
+
+* {
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.menu {
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
+    list-style: none;
+    color: var(--kajoliila);
+    font-weight: 800px;
+}
+
+
+.menukohta {
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: var(--kajosininen);
+
+}
+
+
+.menukohta:hover {
+    color: var(--kajoliila);
+transition: 3,5s ease;
+font-weight: 600; 
+text-decoration: overline 2px solid var(--kajosininen);
+}
+
+
+.menu {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+.otsikko {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+}
+.datafooter {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    list-style: none;
+    
+}
